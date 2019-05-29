@@ -26,6 +26,7 @@
   transform: translate(-50%, -50%);
   text-shadow: -1.5px 0 grey, 0 1.5px grey, 1.5px 0 grey, 0 -1.5px grey;
   font-size: 50pt;
+  text-transform: uppercase;
 }
 
 /* Definizione Prima immagine di sfondo */
