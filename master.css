@@ -16,6 +16,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+  font-size: 50pt;
 }
 
 .primo {
