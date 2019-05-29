@@ -1,25 +1,34 @@
+/* Regola per tutto il corpo della pagina */
 * {
   margin: 0;
   padding: 0;
 }
 
+#prin {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Definizione principali blocchi */
 .blocco {
   margin-top: 2px;
-  height: 32vw;
+  height: 100vh;
   width: 100vw;
   filter: brightness(75%);
 }
 
+ /* Definizione del testo */
 .text {
   color: white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+  text-shadow: -1.5px 0 grey, 0 1.5px grey, 1.5px 0 grey, 0 -1.5px grey;
   font-size: 50pt;
 }
 
+/* Definizione Prima immagine di sfondo */
 .primo {
   background-image: url("immagini/roma.jpg") ;
   background-size: cover;
@@ -32,5 +41,10 @@
 
 .terzo {
   background-image: url("immagini/tokyo.jpg") ;
+  background-size: cover;
+}
+
+.quarto {
+  background-image: url("immagini/newyork.jpg") ;
   background-size: cover;
 }
