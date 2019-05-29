@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.blocco {
+  margin-top: 2px;
+  height: 32vw;
+  width: 100vw;
+  filter: brightness(75%);
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.primo {
+  background-image: url("immagini/roma.jpg") ;
+  background-size: cover;
+}
+
+.secondo {
+  background-image: url("immagini/copenaghen.jpg") ;
+  background-size: cover;
+}
+
+.terzo {
+  background-image: url("immagini/tokyo.jpg") ;
+  background-size: cover;
+}
