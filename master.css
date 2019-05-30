@@ -6,14 +6,14 @@
 
 #prin {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 /* Definizione principali blocchi */
 .blocco {
   margin-top: 2px;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   filter: brightness(75%);
   position: relative;
 }
